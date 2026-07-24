@@ -978,7 +978,6 @@ function getLifespan() {
     const cosmicLongevity = gameData.taskData["Cosmic Longevity"]
     const speedSpeedSpeed = gameData.requirements["Speed speed speed"].isCompleted() ? 1000 : 1
     const lifeIsValueable = gameData.requirements["Life is valueable"].isCompleted() ? 1e5 : 1
-    const baseLifespan *= 10
     const lifespan = baseLifespan * ( gameData.rebirthFourCount + 1 )  * immortality.getEffect() * superImmortality.getEffect() * abyss.getEffect()
         * cosmicLongevity.getEffect() * higherDimensions.getEffect() * lifeIsValueable * speedSpeedSpeed * 10
 
