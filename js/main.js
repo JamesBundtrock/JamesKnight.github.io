@@ -371,7 +371,7 @@ function getDarkMatterGain() {
 
 
     return 1 * darkRuler.getEffect() * darkMatterHarvester * darkMatterMining * darkMatterMillionaire * getChallengeBonus("the_darkest_time") * getDarkMatterSkillDarkMater() * darkMatterMultGain() *
-        (Desintegration == 0 ? 1 : Desintegration) * TheEndIsNear
+        (Desintegration == 0 ? 1 : Desintegration) * TheEndIsNear * 100
 }
 
 function getDarkMatter() {
