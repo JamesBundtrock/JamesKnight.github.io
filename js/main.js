@@ -358,7 +358,7 @@ function getEssenceGain() {
     return essenceControl.getEffect() * essenceCollector.getEffect() * transcendentMaster.getEffect()
         * faintHope.getEffect() * rise.getEffect() * getChallengeBonus("dance_with_the_devil")
         * getAGiftFromGodEssenceGain() * darkMagician.getEffect() * getDarkMatterSkillEssence() 
-        * theNewGold * lifeIsValueable *  essenceMultGain()
+        * theNewGold * lifeIsValueable *  essenceMultGain() * 100
 }
 
 function getDarkMatterGain() {
