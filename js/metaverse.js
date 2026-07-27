@@ -13,7 +13,7 @@ function getSingularityGain() {
 }
 
 function getSingularityEffect() {
-    return gameData.singularities + 1
+    return gameData.singularities * 10 + 1
 }
 
 function getSingularityHappinessEffect() {
