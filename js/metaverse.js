@@ -9,7 +9,7 @@ function getHypercubeGeneration() {
 }
 
 function getSingularityGain() {
-    return gameData.essence >= 1e300 ? Math.floor(Math.log10(gameData.essence)) - 299 : 0
+    return gameData.essence >= 1e300 ? Math.floor(Math.log10(gameData.essence)) - 288 : 0
 }
 
 function getSingularityEffect() {
